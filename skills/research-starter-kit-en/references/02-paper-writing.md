@@ -241,28 +241,122 @@ The main contributions of this paper are: first, ... ; second, ... ; third, ... 
 
 ## 12 · How to Write Related Works
 
-> **Note**　In the original handbook this chapter is an interactive page whose body could not be captured. The points below are compiled from criteria in the other chapters and from common reviewer complaints.
+Related Work is not a bibliography, and not a paragraph-by-paragraph summary of everything you have read. Its core job is to help the reader understand:
 
-Related Works is not a literature review. Its only job is to **set up this paper's gap**: after reading it, the reviewer should believe that the problem really is unsolved.
+- which research thread this paper sits in;
+- how existing methods divide into main lines;
+- what each line solved, and what it left unsolved;
+- how this paper relates to that work: extension, contrast, complement, or advance.
 
-Four parts:
+> **In one sentence**　Related Work must answer: "What has already been done? How does our work relate to it? Why is our work still needed?"
 
-1. **Categorize**: split prior work into 2–4 groups by methodological paradigm (not by year or by author), and name each group.
-2. **Representative work**: pick 2–4 of the most representative papers per group and state each core idea in one sentence.
-3. **Limitations**: every group must end on "what this group cannot solve", measured with the same yardstick so the groups are comparable.
-4. **Positioning**: the final paragraph states how this paper differs — which group it belongs to, and which point it breaks through.
+**Related Work = categorization + summary + representative work + limitations + positioning.**
 
-Three hard criteria:
+### 12.1　Related Work vs. Introduction
 
-- **Categories must be orthogonal**: do not put "CNN-based methods" and "attention-based methods" side by side when they overlap.
-- **Praise without critique is not writing**: every citation must carry an evaluation, and the evaluation must point at the gap this paper fills.
-- **Divide the work with the Introduction**: the Introduction cites only 3–5 works that establish motivation; Related Works does the full comparison. Never repeat the same paragraphs in both.
+The Introduction also cites prior work, but mainly to set up the research question and the gap.
 
-Common failure modes:
+Related Work is more specific: it systematically surveys the threads closest to this paper and positions the contribution.
 
-- A laundry list — "A proposed … B proposed … C proposed …" — after which the reader neither knows who is stronger nor what is missing.
-- Missing the reviewer's own paper, or missing the most direct competitor — a frequent reason for rejection.
-- Framing this paper as "one instance of an existing category", which gives away the right to define its novelty.
+| Section | One-line role | Main purpose |
+| --- | --- | --- |
+| Introduction | Tells a story, builds motivation | Introduces the problem and the gap |
+| Related Work | Draws a map, marks the position | Surveys the closest threads and positions this paper's contribution |
+
+### 12.2　Common structures
+
+#### 12.2.1　By research direction
+
+Works for most papers: one subsection per research direction.
+
+#### 12.2.2　By method family
+
+When the problem already has many methods, organize by technical route instead, and compare the assumptions, strengths and limits of each route.
+
+### 12.3　A recommended structure for every paragraph
+
+Each paragraph in Related Work can usually follow this logic:
+
+1. Summarize one research direction.
+2. List representative work.
+3. Characterize what those methods have in common.
+4. State their relation to this paper, or their limitation.
+
+For example:
+
+> "Prior work has studied this problem from the perspective of … . Early work mainly … ; more recent methods further … . These approaches made progress in … , but typically rely on … , and therefore struggle with … . In contrast, this paper focuses on … ."
+
+### 12.4　Pitfalls to avoid
+
+**Do not walk through papers one by one**
+
+- **Wrong**: A did X. B did Y. C did Z.
+- **Better**: A, B and C belong to the same family; together they solve …, but they still suffer from … .
+
+**Do not only praise, and do not only attack**
+
+- Keep the tone objective. The point is to position your work, not to prove everyone else is wrong.
+
+**Do not cite heavily without categorizing**
+
+- Many citations do not make good related work. Clear categories matter more than citation count.
+
+**Do not repeat the Introduction**
+
+- If the Introduction already covered the motivation, Related Work should go further into technical routes and differences.
+
+**Do not describe only similar work without the differences**
+
+- What readers care about most is exactly how your work differs from those papers.
+
+### 12.5　Useful phrasing
+
+#### 12.5.1　Introducing a research direction
+
+- A large body of work has studied ...
+- Prior research on X can be broadly divided into ...
+- Existing approaches to X typically fall into three categories.
+- Recent studies have explored X from the perspective of ...
+
+#### 12.5.2　Summarizing existing methods
+
+- These methods generally rely on ...
+- Most existing approaches assume that ...
+- A common strategy is to ...
+- Previous work has mainly focused on ...
+
+#### 12.5.3　Pointing out limitations
+
+- However, these methods are limited in ...
+- Despite their success, they often fail to ...
+- This line of work does not explicitly consider ...
+- Few studies have systematically examined ...
+
+#### 12.5.4　Stating the difference
+
+- In contrast, our work focuses on ...
+- Unlike prior work, we ...
+- Our work is complementary to ...
+- While these studies address ..., we investigate ...
+- The closest work to ours is ..., but it differs in ...
+
+### 12.6　Ways to position your contribution
+
+You do not always have to claim "we are better". State the relationship more precisely:
+
+- **Extension**: this paper extends prior work, e.g. to a new setting, task, dataset or model.
+- **Complement**: this paper is complementary, e.g. prior work studies methods, this paper studies evaluation.
+- **Contrast**: this paper differs from prior work, e.g. in assumptions, task definition or evaluation target.
+- **Unification**: this paper unifies several previously scattered problems or methods.
+- **Re-evaluation**: this paper re-examines existing methods and finds gaps or biases in earlier evaluation.
+
+### 12.7　Tables and figures
+
+When you need to compare several existing works across multiple dimensions, a table is a good complement. The dimensions must be ones the field already recognizes as legitimate and directly tied to the paper's core question. Do not assemble a set of "we have it, they don't" features purely to make your work look better — reviewers will read that as a self-serving comparison, or even a deliberately constructed one.
+
+> Figure 12-1 — A comparison table across multiple dimensions of existing work (original figure; screenshot, see the manual page)
+>
+> Figure 12-2 — MMMU's Related Works table: disciplines, subjects, subfields, image types (original figure; screenshot, see the manual page)
 
 ---
 

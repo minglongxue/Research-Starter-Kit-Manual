@@ -43,15 +43,15 @@ What this repository adds
 -------------------------
   * A4 PDF layout rebuilt from the authors' own Word sources: clickable table of
     contents with page numbers, 22 PDF bookmarks, running headers and footers,
-    all 35 original figures, compressed 17 MB -> 8.6 MB.
+    all 37 original figures, compressed 17 MB -> 8.9 MB.
   * Two WorkBuddy/Claude skills (zh / en) that reorganise the handbook into
     on-demand reference files.
 
 Known deviations from the original (see README for detail)
 ----------------------------------------------------------
-  1. Chapter 12 (Related Works) — the original page is an interactive component and
-     could not be captured; the text in this repo for that chapter is a supplement
-     written by the maintainer and is marked as such in the PDF and the skill.
+  1. Chapter 12 (Related Works) — the original page was an interactive component and
+     could not be captured in early versions. It has since been rebuilt in full from
+     the author's Word source, so no supplement text remains.
   2. Chapters 01-08 figures — originals were canvas-rendered and unobtainable; the
      diagrams in this repo are redrawn schematics, labelled "示意图", not the
      originals.
