@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 The packaging work only: PDF layout of manual/Research-Starter-Kit-Manual-ZH.pdf,
+the Skill directory structure and its SKILL.md scaffolding in skills/.
+
+IMPORTANT — SCOPE OF THIS LICENSE
+
+This license covers ONLY the packaging and layout work produced by the maintainer of this
+repository. It does NOT cover:
+
+  1. the text, figures, examples and any other content of the handbook, which is
+     Copyright (c) Lan-Zhe Guo (郭兰哲) and the contributing authors of
+     LAMDA-NeSy/Research-Starter-Kit, and which is redistributed here WITHOUT a license
+     grant from the copyright holders, solely for personal study and non-commercial
+     sharing; and
+
+  2. any third-party material referenced inside the handbook
+     (e.g. Zhou Zhi-Hua's notes, Peng Sida's notes, Wei Xiushen's notes,
+     Paper-Rebuttal-Tips, Science Research Writing).
+
+If you reuse the handbook content, you must attribute the original project:
+https://github.com/LAMDA-NeSy/Research-Starter-Kit
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the packaging work described above, to deal in it without restriction,
+including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the packaging work.
+
+THE PACKAGING WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE PACKAGING WORK OR THE USE OR OTHER DEALINGS IN IT.

@@ -1,0 +1,59 @@
+NOTICE — Attribution and Provenance
+===================================
+
+This repository is an UNOFFICIAL derivative of:
+
+    LAMDA-NeSy/Research-Starter-Kit
+    《科研入门指南：从 0 开始，掌握做科研、写论文的基本流程》
+    https://github.com/LAMDA-NeSy/Research-Starter-Kit
+
+Original author
+---------------
+    郭兰哲 (Lan-Zhe Guo)
+    Associate Professor, School of Intelligence Science and Technology,
+    Nanjing University / LAMDA Group
+    https://www.lamda.nju.edu.cn/guolz/
+
+Contributing students acknowledged in the original project:
+    陈煜旸, 葛凌岳, 张逸凯
+
+Reference material acknowledged in the original project:
+    周志华 — 做研究与写论文
+    凌晓峰 / 杨强 — 《学术研究，你的成功之道》
+    彭思达 — 我的科研经验
+    魏秀参 — 浅谈学术 Rebuttal
+    MLNLP-World — Paper-Rebuttal-Tips
+    — 《Science Research Writing: For Non-Native Speakers of English》
+
+Status of the original project
+------------------------------
+The original repository contains NO license file. Absent a license, the default
+under copyright law is "all rights reserved" by the authors. Accordingly:
+
+  * The handbook's text, figures and examples remain the property of the original
+    authors. They are reproduced here without an explicit permission grant, solely
+    for personal study, offline reading and non-commercial sharing.
+  * This repository claims no ownership over that content and no affiliation with,
+    or endorsement by, the original authors.
+  * Commercial use of the handbook content is NOT permitted.
+  * If any original author or contributor objects to this redistribution, the
+    maintainer will remove the repository promptly upon request.
+
+What this repository adds
+-------------------------
+  * A4 PDF layout rebuilt from the authors' own Word sources: clickable table of
+    contents with page numbers, 22 PDF bookmarks, running headers and footers,
+    all 35 original figures, compressed 17 MB -> 8.6 MB.
+  * Two WorkBuddy/Claude skills (zh / en) that reorganise the handbook into
+    on-demand reference files.
+
+Known deviations from the original (see README for detail)
+----------------------------------------------------------
+  1. Chapter 12 (Related Works) — the original page is an interactive component and
+     could not be captured; the text in this repo for that chapter is a supplement
+     written by the maintainer and is marked as such in the PDF and the skill.
+  2. Chapters 01-08 figures — originals were canvas-rendered and unobtainable; the
+     diagrams in this repo are redrawn schematics, labelled "示意图", not the
+     originals.
+
+Please cite the original project, not this repository.
